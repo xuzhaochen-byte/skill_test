@@ -1,0 +1,9 @@
+# ad-creative-benchmark Python dependencies
+# Install with:
+#   pip install -r ad-creative-benchmark/requirements.txt --index-url=https://bytedpypi.byted.org/simple/
+#
+# bytedtos requires the internal PyPI index. If you cannot access it,
+# the campaign-upload step falls back to a local-tunnel workaround
+# (see references/tiktok_campaign_upload_workflow.md).
+
+bytedtos

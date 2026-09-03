@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative Benchmark"
+  short_description: "Benchmark ads, generate assets, and plan disabled campaign uploads"
+  default_prompt: "Use $ad-creative-benchmark to analyze ad benchmarks from an adv_id or URL, extract reusable reference creative patterns, generate TikTok image/video assets from URL/image/video inputs, and prepare a disabled TikTok campaign upload/create manifest from generated plus selected source media."

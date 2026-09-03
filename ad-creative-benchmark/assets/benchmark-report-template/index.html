@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ad Creative Benchmark — Report</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div class="masthead-top">
+        <p class="eyebrow">Ad Creative Benchmark</p>
+        <p class="eyebrow soft">Aeolus · Dynamic Cohort</p>
+      </div>
+      <h1 id="title">Benchmark Report</h1>
+      <p id="subtitle" class="subtitle"></p>
+      <div class="masthead-score">
+        <span class="score-label">Overall</span>
+        <strong id="overallScore" class="score-value">--</strong>
+        <span class="score-scale">/100</span>
+      </div>
+    </header>
+
+    <section class="block">
+      <div class="block-head"><span class="sec-num"></span><h2>Overview</h2></div>
+      <div class="overview">
+        <div class="overview-facts">
+          <h3>Input &amp; Industry Match</h3>
+          <dl id="inputFacts" class="facts"></dl>
+        </div>
+        <div class="overview-summary">
+          <h3>Executive Summary</h3>
+          <p id="overallText" class="lead"></p>
+          <div class="two-col">
+            <div><h4>Strengths</h4><ul id="strengths"></ul></div>
+            <div><h4>Risks</h4><ul id="risks"></ul></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><span class="sec-num"></span><h2>Metric Waterline</h2></div>
+      <div id="metricCards" class="metric-grid"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><span class="sec-num"></span><h2>Benchmark Percentile Detail</h2></div>
+      <div id="bars" class="bars"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-head"><span class="sec-num"></span><h2>Recommendations</h2></div>
+      <ul id="recommendations" class="recommendations"></ul>
+    </section>
+
+    <section id="referenceSection" class="block optional hidden">
+      <div class="block-head"><span class="sec-num"></span><h2>Reference Creatives</h2></div>
+      <p id="referenceMeta" class="muted block-meta"></p>
+      <div id="creativeCards" class="creative-grid"></div>
+    </section>
+
+    <section id="analysisSection" class="block optional hidden">
+      <div class="block-head"><span class="sec-num"></span><h2>Reusable Creative Patterns</h2></div>
+      <p id="analysisMeta" class="muted block-meta"></p>
+      <div id="analysisCards" class="analysis-list"></div>
+    </section>
+
+    <section id="creativeRecommendationSection" class="block optional hidden">
+      <div class="block-head"><span class="sec-num"></span><h2>Creative Production Plan</h2></div>
+      <div id="creativeRecommendations" class="recommendation-modules"></div>
+    </section>
+
+    <footer class="colophon">
+      <span>Ad Creative Benchmark</span>
+      <span>Generated from Aeolus dynamic benchmark · higher percentile = stronger</span>
+    </footer>
+  </main>
+  <script src="report-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
